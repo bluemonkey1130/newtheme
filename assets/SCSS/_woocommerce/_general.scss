@@ -1,0 +1,56 @@
+@use '../_base/_grid' as *;
+@use '../_components/_every-layout/stack' as *;
+@use '../_utilities/_mixins/media-query' as *;
+
+
+.woocommerce {
+
+
+  ul.products {
+//    .product{
+//      @extend .stack;
+//      @extend .stack-tiny;
+//      a{
+//        @extend .stack;
+//        @extend .stack-tiny;
+//        text-decoration: none;
+////        h2{}
+//        .price{
+//          font-size: var(--f-1);
+//
+//        }
+//
+//      }
+//    }
+//
+//    &:after, &:before {
+//      content: '';
+//      display: none;
+//    }
+  }
+//
+//  img {
+//    width: 100%;
+//  }
+}
+
+.woocommerce-breadcrumb {
+  margin: 0;
+}
+
+.woocommerce-products-header {
+}
+
+.woocommerce-notices-wrapper {
+}
+
+.woocommerce-result-count {
+}
+
+.woocommerce-ordering {
+}
+
+
+.woocommerce {
+
+}
